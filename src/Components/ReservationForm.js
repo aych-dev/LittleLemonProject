@@ -7,8 +7,7 @@ function ReservationForm() {
 
   const handleBookingSubmit = (e) => {
     e.preventDefault();
-    // Here, you can implement the logic to send the booking details to a server
-    // and receive a confirmation. For now, we'll just simulate a confirmation.
+    // Simulating a confirmation
     setConfirmation('Booking confirmed! We look forward to serving you.');
   };
 
